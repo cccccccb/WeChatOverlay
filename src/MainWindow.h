@@ -13,5 +13,6 @@ public:
 
 protected:
     void paintEvent(QPaintEvent *paintEvent) override;
-};  
+    void showEvent(QShowEvent *event) override;
+};
 #endif // MAINWINDOW_H
